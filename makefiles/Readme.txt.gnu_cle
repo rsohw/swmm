@@ -1,0 +1,18 @@
+INSTRUCTIONS FOR COMPILING THE COMMAND LINE VERSION OF SWMM 5
+            USING THE GNU C/C++ COMPILER ON LINUX
+=====================================================================
+
+1. Copy the file "Makefile" to the directory where the SWMM 5 engine
+   source code files are located.
+
+2. Open a console shell and navigate to the SWMM 5 engine source
+   code directory.
+
+3. Issue the command:
+
+      cc -o swmm5 main.c -lswmm5
+
+   to create an executable named swmm5.
+
+Note: the shared object library swmm5.so must also be created and
+      placed in the same directory as the command line executable.

@@ -1,0 +1,16 @@
+INSTRUCTIONS FOR COMPILING THE SWMM 5 ENGINE AS A
+SHARED LIBRARY USING THE GNU C/C++ COMPILER ON LINUX
+=====================================================================
+
+1. Copy the file "Makefile" to the directory where the SWMM 5 engine
+   source code files are located.
+
+2. Open a console shell and navigate to the SWMM 5 engine source
+   code directory.
+
+3. Issue the command:
+
+      make
+
+   to create an shared library named swmm5.so.
+
